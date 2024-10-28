@@ -1,0 +1,164 @@
+@import url('reset.css');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+.header-menu,
+.footer-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 25px 0; 
+}
+
+.header-menu li,
+.footer-menu li {
+    display: inline;
+}
+
+.header-menu li a,
+.footer-menu li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #e05a20;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 8px 10px;
+    border: 1.5px solid #E14603; /* Adiciona o contorno ao botão */
+    border-radius: 17px; /* Define as bordas arredondadas */
+    text-decoration: none;
+    color: #E14603; /* Cor do texto */
+    font-weight: 400; /* Peso da fonte */
+    font-family: 'open sans' sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+.contact-button:hover {
+    background-color: #E14603; /* Cor de fundo ao passar o mouse */
+    color: #ffffff; /* Cor do texto ao passar o mouse */
+}
+
+.footer-info {
+    display: flex; /* Organiza os itens em linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Alinha os itens verticalmente */
+    gap: 10px; /* Espaçamento entre os itens */
+    text-decoration: none;
+    margin-top: 20px; /* Se precisar de um espaço em relação ao conteúdo superior */
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #E14603; /* Cor do texto */
+    font-weight: 400; /* Peso da fonte */
+    font-family: 'open sans' sans-serif;
+}
+
+.footer-menu {
+    display: flex; /* Utiliza Flexbox */
+    justify-content: center; /* Alinha os itens no centro */
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding da lista */
+    margin: 0; /* Remove a margem da lista */
+}
+
+.footer-menu li {
+    margin: 0 15 15px; /* Espaçamento horizontal entre os itens */
+}
+
+.footer-menu a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #E14603; /* Cor do texto (pode ser alterada conforme necessário) */
+    font-weight: 400; /* Peso da fonte */
+}
+
+.footer-logo {
+    width: 50px; /* Tamanho do logo */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-right: 10px; /* Espaço entre o logo e o primeiro item do menu */
+}
+
+.footer-instagram-icon img {
+    width: 30px;
+    height: auto;
+}
+
+/* Estilos do Rodapé */
+.footer {
+    text-align: center;
+    padding: 15px 0; /* Espaço acima e abaixo do rodapé */
+    background-color: none; /* Cor de fundo do rodapé (opcional) */
+}
+
+
+.fooinfoter- {
+    display: flex; /* Organiza os itens em linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Alinha os itens verticalmente */
+    gap: 10px; /* Espaçamento entre os itens */
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;; 
+    text-decoration: none;
+    color: #E14603; /* Cor do texto */
+    font-weight: 400; /* Peso da fonte */
+    font-family: 'open sans' sans-serif;
+}
+
+
+.page-content {
+    text-align: center;
+    padding: 40px 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.logo-center {
+    margin-bottom: 20px;
+}
+
+.logo-center img {
+    width: 150px;
+    height: auto;
+}
+
+.page-title {
+    font-size: 2.5rem;
+    color: #E14603;
+    margin-bottom: 20px;
+}
+
+.description-text {
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #687A61;
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.description-text p {
+    margin-bottom: 20px;
+}
+
+
+.page-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px; 
+    z-index: -1;
+}
+
