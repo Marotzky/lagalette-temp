@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de EVENTOS da La Galette">
+    <title>EVENTOS La Galette</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/eventos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Nanum+Gothic:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="header-menu">
+                <li>
+                    <img src="assets/img/logo/logo_new.png" alt="Logo La Galette" class="footer-logo"> <!-- Substitua pelo caminho correto da logo -->
+                </li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="sobre.html">SOBRE</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="servicos.html">SERVIÇOS</a></li>
+                <li><a href="eventos.html">EVENTOS</a></li>
+                <li><a href="https://wa.me/11986396891" target="_blank" rel="noopener noreferrer" class="contact-button">WHATSAPP</a></li>
+                <li><a href="https://www.instagram.com/lagalettefestas/" target="_blank" rel="noopener noreferrer" class="footer-instagram-icon">
+                    <img src="assets/img/logo/instagram.png" alt="Instagram">
+                </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="event-section">
+        <div class="slide-container">
+            <h1>EVENTOS</h1>
+            <div class="event-slide">
+                <span class="prev" onclick="changeSlide(-1)">&#10094;</span>
+                <div class="event-image-overlay">
+                    <img src="" alt="Imagem do Evento" class="event-image">
+                    <div class="event-title">EVENTO BV</div>
+                </div>
+                <span class="next" onclick="changeSlide(1)">&#10095;</span>
+            </div>
+            <div class="thumbnail-gallery"></div>
+        </div>
+    </section>
+    
+   
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="Imagem Modal">
+            <video id="modalVideo" controls class="hidden"></video>
+        </div>
+    </div>
+    
+    
+    <script src="js/slide.js"></script>
+
+   
+    <footer>
+        <nav>
+            <ul class="footer-menu">
+                <li>
+                    <img src="assets/img/logo/logo_new.png" alt="Logo La Galette" class="footer-logo"> <!-- Substitua pelo caminho correto da logo -->
+                </li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="sobre.html">SOBRE</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="servicos.html">SERVIÇOS</a></li>
+                <li><a href="eventos.html">EVENTOS</a></li>
+                <li><a href="https://wa.me/11986396891" target="_blank" rel="noopener noreferrer"  class="contact-button">WHATSAPP</a></li>
+                <li><a href="https://www.instagram.com/lagalettefestas/" target="_blank" rel="noopener noreferrer" class="footer-instagram-icon">
+                    <img src="assets/img/logo/instagram.png" alt="Instagram">
+                </a></li>
+            </ul>
+        </nav>
+        <div class="footer-info">
+            <p>11 98639-6891 |</p>
+            <p>11 5685-7257 |</p>
+            <p>11 98243-9644 |</p>
+            <p>festa@lagalette.com.br</p>
+        </div>
+    </footer>
+
+</body>
+</html>
